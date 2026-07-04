@@ -8,9 +8,9 @@ Website hadir buat kamu yang pengin tetap tampil fashionable tanpa harus bikin d
 - Bar Kontak Interaktif
 - footnote
 
-~ Teknologi
+# Bahasa
 - HTML
 - CSS
 
-~ Cara Menjalankan
+# Cara Menjalankan
 Download project, lalu buka `index.html` di browser.
