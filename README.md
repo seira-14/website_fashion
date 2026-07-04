@@ -1,4 +1,4 @@
-~ Website Panduan Fashion, "Fashion.Instant"
+# Website Panduan Fashion, "Fashion.Instant"
 
 Website hadir buat kamu yang pengin tetap tampil fashionable tanpa harus bikin dompet nangis. Kita percaya kalau gaya itu bukan soal mahal atau tidaknya pakaian, tapi gimana kamu bisa menampilkan diri dengan percaya diri dan kreatifitas.
 
