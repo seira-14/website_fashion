@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 20px;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .contact-item img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+
+      .contact-item a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+
+      .contact-item a:hover {
+        color: #ff4081;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.jpg" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main class="content">
+        <h2>Hubungi Kami</h2>
+        <p>Kamu bisa menghubungi kami melalui:</p>
+
+        <div class="contact-section">
+          <div class="contact-item">
+            <img src="kontak3.jpg" alt="Email Icon" />
+            <a href="mailto:fashion.instant@gmail.com"
+              >fashion.instant@gmail.com</a
+            >
+          </div>
+
+          <div class="contact-item">
+            <img src="kontak2.jpg" alt="Instagram Icon" />
+            <a href="https://www.instagram.com/fashion.instant" target="_blank">
+              @fashion.instant
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <img src="kontak1.jpg" alt="WhatsApp Icon" />
+            <a href="https://wa.me/6285694881113" target="_blank">
+              0856-9488-1113
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Fashion.Instant. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

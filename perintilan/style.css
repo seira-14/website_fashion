@@ -1,0 +1,132 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Warna utama */
+:root {
+  --primary-color: #d7bfae; /* Beige lembut */
+  --accent-color: #f4ede4; /* Cream */
+  --text-color: #3b2f2f; /* Coklat tua elegan */
+  --highlight-color: #b08968; /* Warna aksen gold muda */
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigasi */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--highlight-color);
+}
+
+/* Kontainer utama */
+.container {
+  display: flex;
+  padding: 30px;
+  background-color: var(--accent-color);
+  min-height: 70vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.sidebar h3 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--text-color);
+  display: block;
+  margin: 8px 0;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: var(--highlight-color);
+}
+
+/* Konten utama */
+.content {
+  flex: 1;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+}
+
+.content h2 {
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Efek halus */
+body {
+  background-color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+.gambar-utama {
+  display: block;
+  margin: 20px auto; /* kasih jarak atas bawah dan tengahin */
+  width: 100%; /* biar lebar menyesuaikan kontainer */
+  max-width: 800px; /* ukuran maksimal biar nggak terlalu besar */
+  border-radius: 12px; /* buat sudut lembut */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* efek bayangan halus */
+}
+/* Jarak antarbaris untuk halaman Tentang Kami */
+.content p {
+  line-height: 1.8; /* Biar teks nggak rapet */
+  margin-bottom: 15px; /* Jarak antar paragraf */
+  text-align: justify; /* Biar rapi pinggir kanan kirinya */
+}
